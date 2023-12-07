@@ -30,7 +30,7 @@ const findNumbersInLine = (text) => {
 
 
 var answer = 0
-fs.readFile('input.txt', function(err, data) {
+fs.readFile('day-1/input.txt', function(err, data) {
     if(err) throw err;
     var array = data.toString().split("\n");
     for(i in array) {
